@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>這是網站名稱</title>
+    <title>放大縮小JS功能</title>
 </head>
 <body>
     <h1>我是安迪連</h1>
@@ -13,23 +13,23 @@
     <button id="btn-reset">重設</button>
     
     <script>
-    const btnZoomIn = document.getElementById("btn-zoom-in");
-    const btnZoomOut = document.getElementById("btn-zoom-out");
-    const btnReset = document.getElementById("btn-reset");
-    
-    btnZoomIn.addEventListener("click", () => {
-      const currentScale = document.documentElement.style.zoom || 1;
-      document.documentElement.style.zoom = currentScale * 1.2;
-    });
-    ㄣ
-    btnZoomOut.addEventListener("click", () => {
-      const currentScale = document.documentElement.style.zoom || 1;
-      document.documentElement.style.zoom = currentScale * 0.8;
-    });
-    
-    btnReset.addEventListener("click", () => {
-      document.documentElement.style.zoom = 1;
-    });
+      const btnZoomIn = document.getElementById("btn-zoom-in");
+      const btnZoomOut = document.getElementById("btn-zoom-out");
+      const btnReset = document.getElementById("btn-reset");
+      
+      btnZoomIn.addEventListener("click", () => {
+        const currentScale = document.documentElement.style.zoom || 1;
+        document.documentElement.style.zoom = currentScale * 1.2;
+      });
+      ㄣ
+      btnZoomOut.addEventListener("click", () => {
+        const currentScale = document.documentElement.style.zoom || 1;
+        document.documentElement.style.zoom = currentScale * 0.8;
+      });
+      
+      btnReset.addEventListener("click", () => {
+        document.documentElement.style.zoom = 1;
+      });
     </script>
 
 </body>
