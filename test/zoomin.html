@@ -21,15 +21,20 @@
         const currentScale = document.documentElement.style.zoom || 1;
         document.documentElement.style.zoom = currentScale * 1.2;
       });
-      ㄣ
+      
       btnZoomOut.addEventListener("click", () => {
-        const currentScale = document.documentElement.style.zoom || 1;
-        document.documentElement.style.zoom = currentScale * 0.8;
+       const currentScale = document.documentElement.style.zoom || 1;
+        if (currentScale > 1) {
+       document.documentElement.style.zoom = currentScale * 0.8;
+       }
       });
+
       
       btnReset.addEventListener("click", () => {
-        document.documentElement.style.zoom = 1;
+       document.documentElement.style.zoom = 1;
+        window.location.reload();
       });
+
     </script>
 
 </body>
