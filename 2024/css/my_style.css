@@ -1,3 +1,22 @@
+p#redred{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Noto Serif TC', sans-serif;
+    text-indent: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+
+}
+
+.blueblue{
+    color:blue;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+/*CSS的註解要這樣寫喔～*/
+
 body{
     font-family:'Noto Sans TC', sans-serif;
 }
@@ -5,4 +24,4 @@ body{
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:'Noto Serif TC', sans-serif;
 }
-    
+
