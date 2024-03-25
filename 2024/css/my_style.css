@@ -1,4 +1,18 @@
+/*CSS的註解要這樣寫喔～*/
+
 p#redred{
+    color: red;
+    background-color: yellow;
+    border-color: blue;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Noto Serif TC', sans-serif;
+    text-indent: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+
+/*p#redred{
     color: red;
     border: 10px solid;
     background-color: black;
@@ -12,7 +26,7 @@ p#redred{
     text-indent: 20px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-}
+}*/
 
 .blueblue{
     color:blue;
@@ -20,7 +34,7 @@ p#redred{
     font-weight: bolder;
 }
 
-/*CSS的註解要這樣寫喔～*/
+
 
 body{
     font-family:'Noto Sans TC', sans-serif;
@@ -39,9 +53,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: white;
 }
 
-.bg-primary {
+/*.bg-primary {
     background-color: black !important;
     background-image: url(../assets/img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
