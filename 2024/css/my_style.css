@@ -1,13 +1,21 @@
 /*CSS的註解要這樣寫喔～*/
 
+.bg-primary{
+    background-color: pink !important;
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 p#redred{
-    color: red;
-    background-color: yellow;
-    border-color: blue;
+    background-color: rgb(138, 43, 226, 0.5);
+    color: white;
+    border: 10px dashed red;
+    background-image: url(../assets/img/bg-redsky.jpg);
     font-size: 40px;
     text-align: center;
     font-family:'Noto Serif TC', sans-serif;
-    text-indent: 20px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
 }
