@@ -1,5 +1,39 @@
 /*CSS的註解要這樣寫喔～*/
 
+hr.blank{
+    margin:50px 0px
+}
+
+ol.andylist>li:hover {
+    background-color: #deb43d;
+    }
+
+table.andytable{
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+table.andytable td{
+    text-align: center;
+    border:1px solid #2a5d44;
+}
+
+table.andytable th{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border:1px solid #2a5d44;
+}
+
+table.andytable tr:nth-child(even) {
+    background-color: yellow;
+}
+ 
+table.andytable tr:nth-child(odd) {
+    background-color: pink ;
+}
+
+
 .bg-primary{
     background-color: pink !important;
     background-image: url(../assets/img/background.jpg);
