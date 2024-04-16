@@ -1,6 +1,9 @@
 /*CSS的註解要這樣寫喔～*/
+.w-85{
+ width: 85%;   
+}
 
-ol.andylist{
+/*ol.andylist{
     list-style-type: upper-alpha;
 }
 
@@ -41,6 +44,7 @@ table.andytable tr:nth-child(odd) {
     background-color: pink ;
     color: black;
 }
+*/
 
 /*
 table.andytable{
@@ -71,10 +75,20 @@ table.andytable th{
     background-position: center;
 }
 
-p#redred{
+.andy80{
+    width: 80%;
+    margin: 0px auto;
+}
+
+#redred{
+    padding: 20px;
+    border: 10px solid orange;
+    border-radius: 5px; /* BS5預設的數值 */
+    margin: 50px auto;
+    width: 80%;
+
     background-color: rgb(138, 43, 226, 0.5);
     color: white;
-    border: 10px dashed red;
     background-image: url(../assets/img/bg-redsky.jpg);
     font-size: 40px;
     text-align: center;
@@ -103,6 +117,7 @@ p#redred{
     color:blue;
     font-style: bold;
     font-weight: bolder;
+    font-size: xx-small;
 }
 
 
