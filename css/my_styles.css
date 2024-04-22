@@ -1,0 +1,117 @@
+/* 全域設定 */
+
+.notransform{
+    text-transform: none !important; 
+}
+
+.andycenter{
+    text-align: center;
+}
+
+.andycolor{
+    color: #1087c3 !important;
+}
+
+.whitecolor{
+    color: white !important;
+}
+
+.greycolor{
+    color: rgb(201, 239, 255) !important;
+}
+
+.andyh4{
+    color: #2A3D48;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+.leftpadding{
+    padding-left: 20px;
+}
+
+
+
+/* 背景 */
+
+.bg-primary{
+    background: linear-gradient(to right, #306D8C, #4C86A8);
+}
+
+.herobg{
+    background: linear-gradient(to left, #306D8C, #4C86A8);
+    color: white;
+    background-image: url(../assets/img/obgs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.andyimg{
+    background-color: #74C0FC !important;
+}
+
+.andyspeech{
+    padding: 30px 40px;
+    background-color: #121f2e70;
+    border-radius: 30px;
+}
+
+
+
+/* 連結樣式 */
+
+.expedu_icon {
+    color: #428FDE;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+
+.expedu_icon:hover{
+    background-color: #428FDE;
+    color: white;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+
+.herodown{
+    font-size: 40px;
+    color: white;
+}
+
+.herodown:hover{
+    font-size: 40px;
+    color: grey;
+}
+
+.ctabtn{
+    background-color: white;
+    color: #1776ad;
+    border-radius: 50px !important; 
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 5px solid;
+    border-color: #1776ad;
+    text-decoration: none;
+}
+
+.ctabtn:hover{
+    background-color: #1776ad;
+    color: white;
+    border-radius: 50px !important; 
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 5px solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+/* 字體設定 */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 ,body {
+    font-family:'Noto Sans TC', sans-serif;
+}
+
+.serif{
+    font-family:'Noto Serif TC', sans-serif;
+}
