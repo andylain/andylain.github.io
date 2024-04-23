@@ -1,4 +1,18 @@
 /*CSS的註解要這樣寫喔～*/
+
+.overflowtest{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 30px auto;
+    height: 300px;
+    overflow: scroll;
+}
+
+
+
 .w-85{
  width: 85%;   
 }
@@ -76,7 +90,7 @@ table.andytable th{
 }
 
 .andy80{
-    width: 80%;
+    width: 50%;
     margin: 0px auto;
 }
 
