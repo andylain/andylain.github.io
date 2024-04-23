@@ -3,15 +3,17 @@
 .overflowtest{
     background-color: black;
     color: white;
-    padding: 10px 20px;
     border-radius: 15px;
-    width: 50%;
     margin: 30px auto;
-    height: 300px;
     overflow: scroll;
+    height: 150px;
 }
 
-
+.darkbg{
+    background-color: rgb(109, 103, 103);
+    color: white;
+    max-width: 100% !important;
+}
 
 .w-85{
  width: 85%;   
@@ -145,7 +147,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .expedu_icon {
-    color: blue
+    color: rgb(231, 231, 231);
+    background-color: rgb(129, 129, 180);
+    padding: 5px 15px;
+    border-radius: 15px;
 }
 
 .expedu_icon:hover{
