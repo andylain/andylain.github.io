@@ -1,4 +1,20 @@
 /*CSS的註解要這樣寫喔～*/
+
+.overflowtest{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow: scroll;
+    height: 150px;
+}
+
+.darkbg{
+    background-color: rgb(109, 103, 103);
+    color: white;
+    max-width: 100% !important;
+}
+
 .w-85{
  width: 85%;   
 }
@@ -76,7 +92,7 @@ table.andytable th{
 }
 
 .andy80{
-    width: 80%;
+    width: 50%;
     margin: 0px auto;
 }
 
@@ -131,7 +147,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .expedu_icon {
-    color: blue
+    color: rgb(231, 231, 231);
+    background-color: rgb(129, 129, 180);
+    padding: 5px 15px;
+    border-radius: 15px;
 }
 
 .expedu_icon:hover{
