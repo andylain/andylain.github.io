@@ -1,0 +1,22 @@
+main{
+    background-color: aqua;
+    height: 90vh;
+}
+#leftdiv{
+    background-color: blueviolet;
+    width: 30%;
+    float: left;
+    height: 350px;
+    border: 2px black solid;
+    padding: 50px;
+
+}
+#rightdiv{
+    background-color: yellow;
+    width: 70%;
+    float: right;
+    height: 350px;
+}
+h1{
+    background-color: rgba(255, 255, 0, 0.266);
+}
